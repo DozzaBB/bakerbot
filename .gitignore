@@ -128,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/runbakerbot.bat
+/ffmpeg/ffmpeg.exe
+/ffmpeg/ffplay.exe
+/ffmpeg/ffprobe.exe
