@@ -4,9 +4,12 @@ import discord
 import pathlib
 import ujson
 
-print("Baker Bot Starting....",end="")
+from bootlogo import bootlogo
+
 
 if __name__ == "__main__":
+    bootlogo()
+    print("Bakerbot starting.")
 
     # Setup Discord API intents.
     intents = discord.Intents.default()
